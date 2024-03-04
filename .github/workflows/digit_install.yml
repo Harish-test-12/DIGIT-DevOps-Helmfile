@@ -3,7 +3,7 @@ name: DIGIT-Install workflow
 on:
   push:
     branches:
-      - master
+      - release-1.28-kubernetes
   workflow_dispatch:
     inputs:
       destroyCommand:
