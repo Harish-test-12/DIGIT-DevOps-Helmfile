@@ -72,7 +72,8 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: deploy-as-code-artifact
-          path: deploy-as-code.tar.gz     
+          path: deploy-as-code.tar.gz  
+             
 
   Terraform_Infra_Creation:
     if: ${{ github.event_name == 'push' }}
